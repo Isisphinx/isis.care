@@ -1,0 +1,48 @@
+{
+  "name": "isis.care",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "gatsby": "latest",
+    "gatsby-plugin-manifest": "latest",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-offline": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "typeface-roboto": "latest"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "tsc": "tsc",
+    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+    "lint:fix": "eslint --fix --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-helmet": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "babel-jest": "latest",
+    "babel-preset-gatsby": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "identity-obj-proxy": "latest",
+    "jest": "latest",
+    "prettier": "latest",
+    "react-test-renderer": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  }
+}
