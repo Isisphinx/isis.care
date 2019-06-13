@@ -49,7 +49,7 @@ const SimpleTabs = () => {
               Isis.Care
             </Typography>
           </Toolbar>
-          <Tabs value={value} onChange={handleChange}>
+          <Tabs value={value} onChange={handleChange} centered>
             <Tab label="Accueil" />
             <Tab label="Solution" />
             <Tab label="Contact" />
