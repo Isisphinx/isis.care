@@ -7,7 +7,7 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Toolbar from '@material-ui/core/Toolbar'
 import Helmet from 'react-helmet'
-import Contact from '../components/Contact2'
+import Contact from '../components/Contact'
 
 interface TabContainerProps {
   children?: React.ReactNode
