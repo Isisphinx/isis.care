@@ -7,6 +7,7 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Toolbar from '@material-ui/core/Toolbar'
 import Helmet from 'react-helmet'
+import Contact from '../components/Contact'
 
 interface TabContainerProps {
   children?: React.ReactNode
@@ -57,7 +58,11 @@ const SimpleTabs = () => {
         </AppBar>
         {value === 0 && <TabContainer>Item One</TabContainer>}
         {value === 1 && <TabContainer>Item Two</TabContainer>}
-        {value === 2 && <TabContainer>Item Three</TabContainer>}
+        {value === 2 && (
+          <TabContainer>
+            <Contact />
+          </TabContainer>
+        )}
       </div>
     </div>
   )
