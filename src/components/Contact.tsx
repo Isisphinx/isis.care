@@ -22,15 +22,9 @@ import Face from '../images/face-small.png'
 import ScreenShare from '@material-ui/icons/ScreenShare'
 
 const useStyles = makeStyles((theme: Theme) => ({
-  root: {
-    marginBottom: '1em',
-  },
   bigAvatar: {
     width: 70,
     height: 70,
-  },
-  myMaxWidth: {
-    maxWidth: '400px',
   },
 }))
 

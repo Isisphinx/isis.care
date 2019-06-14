@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography'
 import Toolbar from '@material-ui/core/Toolbar'
 import Helmet from 'react-helmet'
 import Contact from '../components/Contact'
+import Container from '@material-ui/core/Container'
 
 interface TabContainerProps {
   children?: React.ReactNode
@@ -15,7 +16,7 @@ interface TabContainerProps {
 
 const TabContainer = (props: TabContainerProps) => (
   <Typography component="div" style={{ padding: 8 * 3 }}>
-    {props.children}
+    <Container maxWidth="sm">{props.children}</Container>
   </Typography>
 )
 
